@@ -3,6 +3,7 @@ import Leftside from "./Leftside";
 import Main from "./Main";
 import Rightside from "./Rightside";
 
+
 const Home = (props) => {
     return (
         <Container>
