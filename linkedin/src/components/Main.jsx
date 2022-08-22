@@ -58,10 +58,7 @@ const Main = (props) => {
                        
 
                     }}>
-                    <img src="/images/photo.webp" alt="" style={{
-                        height: "30px",
-                        width: "50px"
-                    }}/>
+                    <img src="/images/photo1.svg" alt="" />
                     <span style={{color: "#70b5f9"}}>Photo</span>
                 </button>
                 <button style={{
@@ -76,10 +73,7 @@ const Main = (props) => {
                         fontWeight: "600",
 
                     }}>
-                    <img src="/images/video.png" alt="" style={{
-                        height: "30px",
-                        width: "50px"
-                    }}/>
+                    <img src="/images/video.svg" alt="" />
                     <span style={{color: "#70b5f9"}}>Video</span>
                 </button>
                 <button style={{
@@ -95,10 +89,7 @@ const Main = (props) => {
                        
 
                     }}>
-                    <img src="/images/event.webp" alt="" style={{
-                        height: "30px",
-                        width: "50px"
-                    }}/>
+                    <img src="/images/event.svg" alt="" />
                     <span style={{color: "#70b5f9"}}>Event</span>
                 </button>
                 <button style={{
@@ -115,10 +106,7 @@ const Main = (props) => {
                        
 
                     }}>
-                    <img src="/images/write.webp" alt="" style={{
-                        height: "30px",
-                        width: "50px",
-                    }}/>
+                    <img src="/images/article.svg" alt="" />
                     <span style={{color: "#70b5f9"}}>Write article</span>
                 </button>
             </div>
@@ -149,8 +137,8 @@ const Main = (props) => {
                     <SocialCounts>
                         <li>
                             <button>
-                                <img src="/images/like.png" alt="" style={{height: "25px"}}/>
-                                <img src="/images/clapping.jpg" alt="" style={{height: "25px"}}/>
+                                <img src="/images/like.svg" alt="" />
+                                <img src="/images/clap.svg" alt="" />
                                 <span>69</span>
                             </button>
                         </li>
@@ -162,19 +150,19 @@ const Main = (props) => {
                     </SocialCounts>
                     <SocialAction>
                         <button>
-                            <img src="/images/like.png" alt="" style={{height: "30px"}} />
+                            <img src="/images/like.svg" alt="" />
                             <span>Like</span>
                         </button>
                         <button>
-                            <img src="images/comment.png" alt="" style={{height: "30px"}}/>
+                            <img src="images/comment.svg" alt="" />
                             <span>Comments</span>
                         </button>
                         <button>
-                            <img src="images/share.jpg" alt="" style={{height: "30px"}}/>
+                            <img src="images/share.svg" alt="" />
                             <span>Share</span>
                         </button>
                         <button>
-                            <img src="images/send.png" alt="" style={{height: "30px"}}/>
+                            <img src="images/send.svg" alt="" />
                             <span>Send</span>
                         </button>
                     </SocialAction>
@@ -303,7 +291,7 @@ const SocialCounts = styled.ul`
         font-size: 12px;
         button{
             display: flex;
-            font-size: 20px;
+            font-size: 16px;
         }
     }
 `;
