@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { connect } from "react-redux";
-import { signInAPI } from "../actions";
+import { signInAPI } from '../actions';
 
 
 const Login = (props) => {
@@ -21,7 +21,7 @@ const Login = (props) => {
                     <img src="/images/login-hero.svg" alt="" />
                 </Hero>
                 <Form>
-                    <Google onChange={() => props.signIn()}>
+                    <Google onClick={() => props.signIn()}>
                         <img src="/images/google.svg" alt="" />
                         Sign in with Google
                     </Google>
