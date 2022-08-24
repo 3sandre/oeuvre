@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import PostModal from "./PostModal";
 
 const Main = (props) => {
     return (
@@ -73,7 +73,7 @@ const Main = (props) => {
                         fontWeight: "600",
 
                     }}>
-                    <img src="/images/video.svg" alt="" />
+                    <img src="/images/video.svg" alt="" style={{height:"30px"}}/>
                     <span style={{color: "#70b5f9"}}>Video</span>
                 </button>
                 <button style={{
@@ -169,6 +169,7 @@ const Main = (props) => {
                     
                 </Article>
             </div>
+            <PostModal/>
         </Container>
     );
 };
